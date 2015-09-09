@@ -5,4 +5,8 @@ lines(subdata[,10],subdata[,8],col="red")
 lines(subdata[,10],subdata[,9],col="blue")
 legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"),lty=c(1,1,1))
 dev.copy(png,file="plot3.png")
+<<<<<<< HEAD
 dev.off()
+=======
+dev.off()
+>>>>>>> origin/master

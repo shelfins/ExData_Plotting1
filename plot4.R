@@ -11,4 +11,8 @@ with(subdata, {
 	plot(subdata[,10],subdata[,4],xlab="datetime",ylab="Global_reactive_power",type="l")
 })
 dev.copy(png,file="plot4.png")
+<<<<<<< HEAD
 dev.off()
+=======
+dev.off()
+>>>>>>> origin/master
